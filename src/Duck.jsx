@@ -38,7 +38,7 @@ function Duck({ z }) {
   )
 }
 
-export default function Ducks({ count = 80, depth = 80 }) {
+export default function Ducks({ count = 37, depth = 15 }) {
 
   return (
     <Canvas gl={{ alpha: false }} camera={{ near: 0.01, far: 110, fov: 40 }}>
