@@ -51,6 +51,7 @@ body,
 .githubImage{
     max-width: 10rem;
     margin:auto;
+    margin-top: 3rem;
 }
 
 .githubImage:hover{
@@ -76,6 +77,6 @@ body,
     }
 
     .subTitle {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 }

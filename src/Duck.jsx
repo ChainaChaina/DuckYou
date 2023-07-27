@@ -38,10 +38,10 @@ function Duck({ z }) {
   )
 }
 
-export default function Ducks({ count = 37, depth = 15 }) {
+export default function Ducks({ count = 12, depth = 100 }) {
 
   return (
-    <Canvas gl={{ alpha: false }} camera={{ near: 0.01, far: 110, fov: 40 }}>
+    <Canvas gl={{ alpha: false }} camera={{ near: 0.1, far: 110, fov: 40 }}>
       <color attach="background" args={['#f0e77d']}></color>
       <ambientLight intensity={0.3} />
       <spotLight position={10} intensity={0.2} />
